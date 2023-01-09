@@ -3,7 +3,13 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    list-style-type: none;
     font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 .btn-primary {
@@ -18,7 +24,7 @@
 
 /* banner section */
 .banner {
-    background-image: url(/images/donation9.jpg);
+    background-image: url(/images/donation6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -43,4 +49,63 @@
     line-height: 28px;
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+/* donate today section */
+.donate-today {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-top: 130px;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin: 20px 0 50px 0;
+}
+
+.amount {
+    display: flex;
+    gap: 22px;
+    margin-bottom: 60px;
+}
+
+.amount li {
+    width: 136px;
+    height: 123px;
+    background: #FAFAFA;
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amount li:hover {
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+form input[type="text"] {
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    width: 765px;
+    margin-bottom: 30px;
+    padding: 10px;
+    display: block;
+}
+form input[type="text"]:hover{
+    border: 1px solid #DADADA;
 }
